@@ -41,13 +41,13 @@ Flipkart product buy
     switch window  title:APPLE iPhone 13 ( 128 GB GB Storage, 0 GB RAM ) Online at Best Price On Flipkart.com
     click button  xpath = //html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[2]/form/button
     sleep  10s
-    stop testcase
+
 Flipkart userloin
     [Documentation]  login
     [Tags]  flipkart
-    input text  class:_2IX_2-  test@gmail.com
-    click button  xpath = //html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[3]/button
     sleep  5s
+    input text  xpath = /html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[1]/input  test@gmail.com
+    click button  xpath = //html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[3]/button
     stop testcase
 
 *** Keywords ***
